@@ -1,8 +1,8 @@
 import sys, cv2 as cv
 import os
 
-# ffmpeg_dll_path = r'E:\python_examples\opencv-3.2.0-vc14\opencv\build\bin'
-ffmpeg_dll_path = r'C:\dev_projects\opencv-3.2.0-vc14\opencv\build\bin'
+ffmpeg_dll_path = r'E:\python_examples\opencv-3.2.0-vc14\opencv\build\bin'
+# ffmpeg_dll_path = r'C:\dev_projects\opencv-3.2.0-vc14\opencv\build\bin'
 os.environ["PATH"] += os.pathsep +  ffmpeg_dll_path
 
 cap = cv.VideoCapture('test_data/t_rex_test_video.avi')
