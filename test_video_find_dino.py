@@ -4,8 +4,8 @@ import numpy as np
 import time
 
 
-ffmpeg_dll_path = r'E:\python_examples\opencv-3.2.0-vc14\opencv\build\bin'
-# ffmpeg_dll_path = r'C:\dev_projects\opencv-3.2.0-vc14\opencv\build\bin'
+# ffmpeg_dll_path = r'E:\python_examples\opencv-3.2.0-vc14\opencv\build\bin'
+ffmpeg_dll_path = r'C:\dev_projects\opencv-3.2.0-vc14\opencv\build\bin'
 os.environ["PATH"] += os.pathsep +  ffmpeg_dll_path
 
 cap = cv2.VideoCapture('test_data/t_rex_test_video.avi')
